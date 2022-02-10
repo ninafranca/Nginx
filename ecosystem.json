@@ -1,0 +1,24 @@
+{
+    "apps": [
+        {
+            "name": "Proceso0",
+            "script": "app.js",
+            "watch": "true",
+            "args": "8080"
+        },
+        {
+            "name": "Proceso1",
+            "script": "app.js",
+            "watch": "true",
+            "args": "8081",
+            "exec_mode": "cluster"
+        },
+        {
+            "name": "Proceso2",
+            "script": "app.js",
+            "watch": "true",
+            "args": "8082",
+            "exec_mode": "cluster"
+        }
+    ]
+}
